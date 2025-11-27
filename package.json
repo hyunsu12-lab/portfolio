@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && npm run build:move",
-    "build:move": "node scripts/move-build.js",
+    "build": "tsc && vite build && node scripts/move-to-portfolio.js && node scripts/fix-asset-paths.js",
     "preview": "vite preview"
   },
   "dependencies": {
