@@ -1,6 +1,5 @@
 import roadkillPaper from '../../img/한국 도로상의 야생동물 로드킬 현황 분석 및 유도울타리 위치 최적화 복사본.pdf';
 import smartMediaAward from '../../img/[2023스마트미디어심포지움]우수논문상장_이지민.이용선.남현준.조현수.김보영.무 복사본.pdf';
-import CheonanData from '../../img/천안데이터.pdf';
 
 export type Locale = 'ko' | 'en';
 
@@ -159,7 +158,7 @@ export const dict: Record<Locale, Dictionary> = {
           description: '본선 진출',
           contributions: ['데이터 수집 및 분석', '정책 제언', '모델 설계'],
           tags: ['Data Analysis', 'Statistics', 'Planning'],
-          links: [{ label: 'PDF', href: CheonanData }],
+          links: [{ label: 'PDF(예정)' }],
         },
         {
           title: '2025 데이터 크리에이터 캠프',
