@@ -173,8 +173,10 @@ Destination URL: https://hyunshu.com/portfolio
 
 - **Framework preset**: `Vite` (자동 감지될 수 있음)
 - **Build command**: `npm run build`
-- **Build output directory**: `dist`
+- **Build output directory**: `dist/portfolio` ⚠️ **중요: `dist`가 아닌 `dist/portfolio`로 설정**
 - **Root directory**: `/` (기본값) ⚠️ **반드시 `/`로 설정** - 프로젝트가 저장소 루트에 있으므로 변경하지 마세요
+
+**주의**: Build output directory를 `dist/portfolio`로 설정해야 합니다. 빌드 스크립트가 파일을 `dist/portfolio/`로 이동시키기 때문입니다.
 
 ### 환경 변수
 

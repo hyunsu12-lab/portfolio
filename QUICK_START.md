@@ -34,7 +34,7 @@ git push origin main
 3. 빌드 설정:
    - **Root directory**: `/` (기본값, 변경하지 마세요)
    - **Build command**: `npm run build`
-   - **Build output directory**: `dist`
+   - **Build output directory**: `dist/portfolio` ⚠️ **중요: `dist`가 아닌 `dist/portfolio`로 설정**
 
 ### 2-1. Custom Domain 설정
 1. 프로젝트 → **Custom domains** 탭
